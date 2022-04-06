@@ -1,0 +1,9 @@
+những thành phần thường gặp trên giao diện web:
+1. header
+2. navigation
+3. breadcrumb
+4. slidebar
+5. slider
+6. content
+7. footer
+8. banner

@@ -1,0 +1,424 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.header{
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.nav li {
+    display: inline-block;
+    position: relative;
+}
+.nav li a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 47px;
+    padding: 0 24px;
+    display: block;
+}
+.nav >li >a{
+    text-transform: uppercase;
+}
+.nav li:hover .subnav{
+    display: block;
+    top: 46px;
+}
+.nav .subnav li:hover a,
+.nav >li:hover >a {
+    color: black;
+    background-color: #ccc;
+}
+.nav .subnav{
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: none;
+}
+.nav .subnav a{
+    color: black;
+    min-width: 160px;
+    padding: 0 12px ;
+    line-height: 38px;
+    
+}
+.nav .icon-search {
+    color:#fff;
+    position: absolute;
+    top: -28px;
+    left: 950px;
+    line-height: 46px;
+    padding: 0 20px;
+}
+.nav .icon-search:hover{
+    color: #fff;
+    position: absolute;
+    top: -28px;
+    left: 950px;
+    line-height: 46px;
+    background-color: rgb(241, 48, 14);
+    padding: 0 20px;
+}
+.nav .around-down{
+    position: absolute;
+    top: 10px;
+}
+.slider{
+    position: relative;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url(/f8/img/chicago.jpg) top center / cover no-repeat;
+}
+.slider .text-content{
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 44px;
+    text-align: center;
+}
+.slider .text-heading{
+    font-size: 24px;
+    font-weight: 500;
+}
+.slider .text-description{
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.content{
+    display: block;
+
+}
+.content .the-band{
+    padding: 64px 16px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.the-band-heading{
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 4px;
+    margin: 10px 0;
+    text-align: center;
+}
+.the-band-description{
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+    color: rgb(179, 175, 175);
+}
+.the-band-content{
+    margin: 15px 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+.the-band-member{
+    padding: 32px 0;
+    display: flex;
+    justify-content: center;
+}
+.member-1,
+.member-2,
+.member-3{
+    width: 255.988px;
+    height: 221.988px;
+    font-size: 15px;
+    text-align: center;
+}
+.member-profile{
+    margin: 0 0 16px;
+    height: 154px;
+    width: 154px;
+    border-radius: 4px;
+}
+.member-name{
+    margin: 15px 0;
+}
+.tourdate-garenal{
+    background-color: black;
+}
+.tour-date{
+    height: 700px;
+    padding: 64px 0;
+}
+.tour-date-heading{
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 4px;
+    margin: 10px 0;
+    color: #fff;
+    text-align: center;
+}
+.ticket-tour{
+    margin-top: 36px;
+}
+.order-ticket{
+    background-color: #fff;
+    display: flex;
+    width: 736px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 16px;
+    border-bottom: 2px solid #c9c9c9;
+    font-size: 15px;
+    line-height: 24px;
+}
+.month{
+    opacity: 0.6;
+}
+.number-ticket{
+    margin-left: 16px;
+    padding: 0 8px;
+    background-color: #f44336;
+    color: #fff;
+}
+.order-ticket .number-ticket-3{
+    margin-left: 626px; ;
+    background-color: black;
+    color: #fff;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 24px;
+}
+.ticket-place{
+    margin-top: 34px;
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.place{
+    float: left;
+    background-color: #fff;
+    width: 246px;
+    height: 388px;
+    
+}
+.place-img{
+    width: 246px;
+    height: 184px;
+    
+}
+.place-img:hover{
+    width: 246px;
+    height: 184px;
+    opacity: 0.6;
+    
+}
+.place-body{
+    margin: 16px;
+}
+.place-time{
+    opacity: 0.6;
+    margin: 15px 0;
+}
+.place-desc{
+    line-height: 1.5;
+}
+.place-buy-btn{
+    color: #fff;
+    border: none;
+    background-color: black;
+    padding: 10px 16px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.place-buy-btn:hover{
+    color: black;
+    border: none;
+    background-color: #c9c9c9;
+    padding: 10px 16px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.contact{
+    padding: 64px 16px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-heading{
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 4px;
+    margin: 10px 0;
+    text-align: center;
+}
+.contact-body{
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.infor-place,
+.infor-phone,
+.infor-email {
+    display:flex;
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+.infor-content{
+    padding-left: 16px;
+}
+.contact-infor-right{
+    display: flex;
+    flex-direction: column;
+}
+.infor-in{
+    padding: 12px 8px ;
+    margin: 0 8px 8px 8px;
+    font-size: 15px;
+    border: 1px solid #c9c9c9;
+}
+.infor-in-2{
+    padding: 12px 8px;
+    margin: 0 8px;
+    font-size: 15px;
+    border: 1px solid #c9c9c9;
+}
+.contact-send{
+    float: right;
+    font-size: 15px;
+    color: #fff;
+    background-color: black;
+    margin-top: 16px;
+    margin-right: 8px;
+    margin-bottom: 112px;
+    padding: 10px 14px;
+    border: none;
+}
+.contact-send:hover{
+    float: right;
+    font-size: 15px;
+    color: black;
+    background-color: #c9c9c9;
+    margin-top: 16px;
+    margin-right: 8px;
+    margin-bottom: 112px;
+    padding: 10px 14px;
+    border: none;
+}
+.map{
+    width: 100%;
+    background-size: cover;
+    filter: grayscale(50%);
+}
+.footer{
+    margin: 80px 0;  
+}
+.footer-icon{
+    
+    text-align: center;
+    filter: invert(40%) sepia(0%) saturate(1897%) hue-rotate(192deg) brightness(94%) contrast(82%);
+    
+}
+.footer-icon :hover{
+   
+    text-align: center;
+    filter: invert(70%) sepia(16%) saturate(0%) hue-rotate(92deg) brightness(85%) contrast(92%);
+    
+}
+.footer-bye,
+.footer-bye a{
+    margin-top: 16px;
+    color: rgb(141, 140, 140);
+    text-align: center;
+}
+.modal.open{
+    display: flex;
+}
+
+.modal{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+.modal-ticket{
+    background-color: #fff;
+    width: 900px;
+    min-height: 200px;
+}
+.close{
+    text-align: right;
+    background-color: #009688;
+    color: #fff;
+}
+.close .material-icons{
+    padding: 12px 8px;
+}
+.close .material-icons:hover{
+    padding: 12px 8px;
+    background-color: #c9c9c9;
+    color: black
+}
+.modal-header{
+    color: #fff;
+    background-color:#009688 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    padding-bottom: 48px;
+    margin-bottom: 15px;
+}
+.modal-heading{
+    padding-left: 8px;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+.modal-body,
+.modal-footer{
+    padding: 0 16px;
+}
+.infor-in-3{
+    display: block;
+    width: 850px;
+    padding: 8px;
+    font-size: 15px;
+    margin: 15px 0;
+    border: 1px solid #c9c9c9;
+}
+.modal-pay{
+    display: block;
+    width: 100%;
+    background-color:#009688 ;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.modal-pay:hover{
+    display: block;
+    width: 100%;
+    background-color:#c9c9c9 ;
+    color: black;
+    border: none;
+    font-size: 15px;
+    padding: 16px;
+    text-align: center;
+}
+.modal-footer{
+    float: right;
+    margin-bottom: 30px;
+}
